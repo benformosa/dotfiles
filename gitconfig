@@ -1,0 +1,7 @@
+[user]
+	name = Ben Formosa
+	email = ben.formosa@gmail.com
+[core]
+	editor = /usr/bin/vim
+[push]
+	default = simple
