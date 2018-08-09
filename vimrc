@@ -1,5 +1,5 @@
+execute pathogen#infect()
 set nocompatible
-syntax on
 filetype plugin indent on
 
 set tabstop=4
@@ -12,7 +12,11 @@ set backspace=indent,eol,start
 set ignorecase
 set smartcase
 
+syntax enable
 set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
 set wildmenu
 set ruler
 set laststatus=2
