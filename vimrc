@@ -23,3 +23,6 @@ set laststatus=2
 set hlsearch
 " Map CTRL+L to also clear search highlighting
 nnoremap <C-L> :nohl<CR><C-L>
+
+set mouse=a
+set colorcolumn=80
